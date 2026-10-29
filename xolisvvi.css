@@ -79,7 +79,9 @@ a, a:link, a:visited, a:hover, a:active {
 
 .main {
     border: 4px double rgb(148, 119, 255);
-    width: 920px;
+    width: 90%;
+    max-width: 920px;
+    box-sizing: border-box;
     margin: 48px auto 48px auto;
     padding: 20px;
     background-color: white;

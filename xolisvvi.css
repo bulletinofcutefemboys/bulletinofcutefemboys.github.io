@@ -29,8 +29,8 @@ textarea,
 
 html,body {
 	width: 100%;
-    -ms-touch-action:none;
-    touch-action:none;
+    -ms-touch-action:auto;
+    touch-action:auto;
     -webkit-touch-callout:none;
     -webkit-text-size-adjust:none;
     -moz-text-size-adjust:none;

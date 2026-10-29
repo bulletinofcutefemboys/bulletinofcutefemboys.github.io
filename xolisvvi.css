@@ -16,3 +16,25 @@ body {
     max-width: 800px;
     margin: 40px auto;
 }
+
+* {
+    cursor: url('cursors/dark_purple/000001_normal_select.cur'), auto !important;
+}
+
+a, button, input[type="submit"], input[type="button"], input[type="reset"] {
+    cursor: url('cursors/dark_purple/000001_normal_select.cur'), pointer !important;
+}
+
+input:not([type="button"]):not([type="submit"]):not([type="reset"]), 
+textarea, 
+[contenteditable="true"] {
+    cursor: url('cursors/dark_purple/000001_text_select.cur'), text !important;
+}
+
+:disabled, [disabled] {
+    cursor: url('cursors/dark_purple/000001_unavailable.cur'), not-allowed !important;
+}
+
+[draggable="true"] {
+    cursor: url('images/000001_normal_select.cur'), grab !important;
+}

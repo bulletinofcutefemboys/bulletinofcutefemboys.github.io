@@ -29,6 +29,7 @@ textarea,
 
 html,body {
 	width: 100%;
+    overflow-x: hidden;
     -ms-touch-action:auto;
     touch-action:auto;
     -webkit-touch-callout:none;
@@ -61,8 +62,14 @@ hr {
 a, a:link, a:visited, a:hover, a:active {
     color: rgb(148, 119, 255) !important;
     text-decoration: underline;
+    word-break: break-all; 
+    overflow-wrap: break-word;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 .noselect {
     -webkit-user-select:none;
@@ -81,7 +88,6 @@ a, a:link, a:visited, a:hover, a:active {
     border: 4px double rgb(148, 119, 255);
     width: 90%;
     max-width: 920px;
-    box-sizing: border-box;
     margin: 48px auto 48px auto;
     padding: 20px;
     background-color: white;
@@ -92,12 +98,15 @@ div.beautified {
     margin: 48px auto 48px auto;
     padding: 20px;
     background-color: white;
+    box-sizing: border-box;
 }
 
 table.beautified {
     width: 100%;
     max-width: 850px;
     margin: 48px auto;
+    table-layout: fixed;
+    word-wrap: break-word;
 }
 
 table.beautified > tbody > tr > td {
@@ -106,14 +115,17 @@ table.beautified > tbody > tr > td {
     font-size: 26px;
     width: 50%;
     vertical-align: top;
+    box-sizing: border-box;
 }
 
 .divthing1 {
     display: inline-flex; align-items: left; gap: 12px;
+    max-width: 100%;
 }
 
 .divthing2 {
     display: inline-flex; align-items: center; gap: 12px;
+    max-width: 100%;
 }
 
 .sagless {
@@ -122,4 +134,10 @@ table.beautified > tbody > tr > td {
 
 #greylink {
     font-size: 22px !important; color:rgb(98, 0, 255) !important;
+}
+
+.divthing2, .divthing2 span, .divthing2 a {
+    max-width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }

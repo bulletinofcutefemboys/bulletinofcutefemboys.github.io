@@ -4,18 +4,6 @@
 	font-weight: 400;
     font-style: normal;
 }
-body {
-    font-family: 'Biinfy';
-    color: #1a0044;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    background-color: #000000;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 40px auto;
-}
 
 * {
     cursor: url('cursors/dark_purple/000001_normal_select.cur'), auto !important;
@@ -37,4 +25,99 @@ textarea,
 
 [draggable="true"] {
     cursor: url('images/000001_normal_select.cur'), grab !important;
+}
+
+html,body {
+	width: 100%;
+    -ms-touch-action:none;
+    touch-action:none;
+    -webkit-touch-callout:none;
+    -webkit-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    text-size-adjust:none;
+}
+
+body {
+    background-image: url("img/background.png");
+    text-align: center;
+    background-color: white;
+    border: none;
+	margin: 0;
+	padding: 0;
+    overflow:auto;
+
+    color: rgb(148, 119, 255);
+    font-family: 'Biinfy';
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+hr {
+    color: rgb(213, 203, 248);
+    border: 2px dashed rgb(148, 119, 255);
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: rgb(148, 119, 255) !important;
+    text-decoration: underline;
+}
+
+
+.noselect {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-touch-callout: none;
+    -webkit-context-menu: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.main {
+    border: 4px double rgb(148, 119, 255);
+    width: 920px;
+    margin: 48px auto 48px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+div.beautified {
+    border: 4px double rgb(148, 119, 255);
+    margin: 48px auto 48px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+table.beautified {
+    width: 100%;
+    max-width: 850px;
+    margin: 48px auto;
+}
+
+table.beautified > tbody > tr > td {
+    border: 4px double rgb(148, 119, 255);
+    padding: 12px;
+    font-size: 26px;
+    width: 50%;
+    vertical-align: top;
+}
+
+.divthing1 {
+    display: inline-flex; align-items: left; gap: 12px;
+}
+
+.divthing2 {
+    display: inline-flex; align-items: center; gap: 12px;
+}
+
+.sagless {
+    margin: 0px 12px 0px 12px;
+}
+
+#greylink {
+    font-size: 22px !important; color:rgb(98, 0, 255) !important;
 }

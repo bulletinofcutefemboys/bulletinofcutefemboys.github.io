@@ -155,6 +155,10 @@ table.beautified > tbody > tr > td {
     overflow-wrap: break-word;
 }
 
+button {
+    font-family: Biinfy;
+}
+
 .cute-btn {
     background-color: rgb(148, 119, 255);
     border: 4px double white;
@@ -183,14 +187,6 @@ table.beautified > tbody > tr > td {
     color: white;
 }
 
-footer {
-    background-color: white;
-}
-
-body.dark-mode footer {
-    background-color: black;
-}
-
 .rainbow_border {
     padding: 5px;
     border: 4px dashed transparent;
@@ -204,8 +200,17 @@ body.dark-mode .rainbow_border {
     background-image: linear-gradient(black,black), 
                       linear-gradient(90deg, red, orange, yellow, green, blue, purple, red);
 }
-.divthing2, .divthing2 span, .divthing2 a {
-    max-width: 100%;
-    word-break: break-word;
-    overflow-wrap: break-word;
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 4px double rgb(148, 119, 255);
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body.dark-mode .footer {
+    background-color: black;
 }

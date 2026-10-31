@@ -155,6 +155,10 @@ table.beautified > tbody > tr > td {
     overflow-wrap: break-word;
 }
 
+button {
+    font-family: 'Biinfy';
+}
+
 .cute-btn {
     background-color: rgb(148, 119, 255);
     border: 4px double white;

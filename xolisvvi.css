@@ -49,7 +49,7 @@ body {
     overflow:auto;
 
     color: rgb(148, 119, 255);
-    font-family: 'Biinfy';
+    font-family: 'Biinfy' !important; 
     font-size: 32px;
     padding-top: 20px;
 }

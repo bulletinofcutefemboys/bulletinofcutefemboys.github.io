@@ -214,3 +214,38 @@ body.dark-mode .rainbow_border {
 body.dark-mode .footer {
     background-color: black;
 }
+
+.carasolmain {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.carasoltrack {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 12px; 
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch;
+}
+
+.carasol {
+    flex: 0 0 auto;
+    width: 280px;
+    height: 180px;
+    scroll-snap-align: start;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    background: #151226;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carasol img {
+    width: 95%;
+    object-fit: cover;
+    display: block;
+}

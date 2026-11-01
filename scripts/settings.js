@@ -11,6 +11,8 @@ function applytheme(boolean) {
 }
 
 applytheme(theme_ls);
-theme_btn.addEventListener("click", () => {
-    applytheme(!theme_ls);
-})
+if (theme_btn) {
+    theme_btn.addEventListener("click", () => {
+        applytheme(!theme_ls);
+    });
+}

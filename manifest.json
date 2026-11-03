@@ -1,0 +1,33 @@
+{
+  "name": "Xolisvvi's Web",
+  "short_name": "Xolisvvi",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#000000",
+  "theme_color": "#9477FF",
+  "description": "Xoli (also known as xolisvvi) is a indie game developer co owning game studio TPL Studios. Xoli has never used AI generative assets in code, artwork or assets.",
+  "orientation": "natural",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-apple.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
